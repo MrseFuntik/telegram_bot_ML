@@ -6,8 +6,9 @@ from pathlib import Path
 from PIL import Image
 from aiogram.types import InputFile
 from fastapi import FastAPI
+import os
 
-token = '6593301986:AAEqCYGYQKmDjzssFKimD4rAUdZa_OCLvLA'
+TOKEN = os.getenv('TOKEN')
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=token)
