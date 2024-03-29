@@ -4,3 +4,4 @@ fastapi==0.110.0
 pillow==10.2.0
 opencv-python==4.8.1.78
 python-magic==0.4.27
+uvicorn==0.29.0
